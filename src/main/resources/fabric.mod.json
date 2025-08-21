@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmetiques_vixorya",
+  "version": "1.0.0",
+  "name": "Cosmétiques Vixorya",
+  "description": "Ajoute des ailes, une queue et un mini Krokmou cosmétique !",
+  "authors": ["Vixorya"],
+  "contact": {
+    "sources": "https://github.com/vixorya/cosmetiques_vixorya"
+  },
+  "license": "MIT",
+  "icon": "assets/cosmetiques_vixorya/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.vixorya.cosmetiques.CosmetiquesVixorya"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.x",
+    "java": ">=17",
+    "geckolib": ">=5.2.2"
+  }
+}
